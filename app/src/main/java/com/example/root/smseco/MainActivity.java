@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
+/*
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         switch (requestCode)
@@ -70,10 +70,10 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
                 else {
-                    Toast.makeText(this, "No", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "No Perminssin", Toast.LENGTH_SHORT).show();
                 }
         }
         return;
-    }
+    }*/
 }
 
