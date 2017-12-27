@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.root.smseco.New_SMS">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mobileNumber"
+            android:maxLength="10"
+            android:hint="Mobile Number"
+            android:inputType="number|textCapCharacters|text"
+            android:textColorHint="@color/colorPrimary"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="left"
+            android:id="@+id/textmessage"
+            android:inputType="textCapCharacters|text"
+            android:hint="Enter Text Here"
+            android:textColorHint="@color/colorPrimary"/>
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/sendsmsbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

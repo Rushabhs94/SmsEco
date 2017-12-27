@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.root.smseco.MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/newsms"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:text="Go To New SMS"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="30dp" />
+        <TextView
+            android:id="@+id/showsms"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:text="Show SMS"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="30dp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
